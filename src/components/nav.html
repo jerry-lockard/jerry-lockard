@@ -1,16 +1,36 @@
 <nav class="main-nav">
     <div class="nav-content">
         <div class="logo">
-            <a href="/src/index.html">JL</a>
+            <div class="logo-container">
+                <span class="logo-text">JL</span>
+                <div class="logo-circle"></div>
+            </div>
         </div>
         <div class="nav-links">
-            <a href="/src/pages/about/index.html">About</a>
-            <a href="/src/pages/projects/index.html">Projects</a>
-            <a href="/src/pages/blog/index.html">Blog</a>
-            <a href="/src/pages/contact/index.html">Contact</a>
+            <a href="/src/index.html" class="nav-link">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="/src/pages/about/index.html" class="nav-link">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+            </a>
+            <a href="/src/pages/projects/index.html" class="nav-link">
+                <i class="fas fa-code"></i>
+                <span>Projects</span>
+            </a>
+            <a href="/src/pages/contact/index.html" class="nav-link">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+            </a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
         </div>
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-            <i class="fas fa-moon"></i>
+        <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
         </button>
     </div>
 </nav>
