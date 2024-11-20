@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Developer Portfolio</title>
+    <meta name="description" content="Showcase of my development projects and work">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/projects.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+    <nav id="main-nav"></nav>
+
+    <main class="projects-page">
+        <section class="hero projects-hero">
+            <div class="container">
+                <h1 class="animate-on-scroll">My Projects</h1>
+                <p class="animate-on-scroll">A collection of my work and contributions to the development community</p>
+            </div>
+        </section>
+
+        <section class="projects-grid">
+            <div class="container">
+                <div class="project-filters animate-on-scroll">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="backend">Backend</button>
+                </div>
+
+                <div class="projects-container">
+                    <!-- Project Card 1 -->
+                    <article class="project-card animate-on-scroll" data-category="web">
+                        <div class="project-image">
+                            <img src="../../assets/images/projects/project1.jpg" alt="Project 1">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="btn">View Live</a>
+                                    <a href="#" class="btn">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Project Name 1</h3>
+                            <p>A brief description of the project and its main features.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card animate-on-scroll" data-category="mobile">
+                        <div class="project-image">
+                            <img src="../../assets/images/projects/project2.jpg" alt="Project 2">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="btn">View Live</a>
+                                    <a href="#" class="btn">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Project Name 2</h3>
+                            <p>A brief description of the project and its main features.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card animate-on-scroll" data-category="backend">
+                        <div class="project-image">
+                            <img src="../../assets/images/projects/project3.jpg" alt="Project 3">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="btn">View Live</a>
+                                    <a href="#" class="btn">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Project Name 3</h3>
+                            <p>A brief description of the project and its main features.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="github-section">
+            <div class="container">
+                <h2 class="animate-on-scroll">GitHub Contributions</h2>
+                <div class="github-stats animate-on-scroll">
+                    <!-- Add your GitHub stats/widgets here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer"></footer>
+
+    <script src="../../js/main.js"></script>
+    <script src="../../js/projects.js"></script>
+</body>
+</html>

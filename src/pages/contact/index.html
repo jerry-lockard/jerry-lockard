@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Developer Portfolio</title>
+    <meta name="description" content="Get in touch with me for collaboration or opportunities">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+    <nav id="main-nav"></nav>
+
+    <main class="contact-page">
+        <section class="hero contact-hero">
+            <div class="container">
+                <h1 class="animate-on-scroll">Get in Touch</h1>
+                <p class="animate-on-scroll">Let's discuss your next project or opportunity</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container animate-on-scroll">
+                        <h2>Send a Message</h2>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn submit-btn">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info animate-on-scroll">
+                        <h2>Contact Information</h2>
+                        <div class="info-items">
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info-content">
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <div class="info-content">
+                                    <h3>Phone</h3>
+                                    <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info-content">
+                                    <h3>Location</h3>
+                                    <p>City, Country</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h3>Connect With Me</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer"></footer>
+
+    <script src="../../js/main.js"></script>
+    <script src="../../js/contact.js"></script>
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+</body>
+</html>
